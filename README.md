@@ -12,3 +12,16 @@ Correct the data in the "height" column by replacing it with random numbers betw
 3. Identify the predominant age group among employees.
 4. Discover which team and position have the highest salary expenditure.
 5. Investigate if there's any correlation between age and salary, and represent it visually.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* Preprocessing Steps
+  
+The following preprocessing steps were performed:
+
+1. Handling Missing values : Missing values in the 'College' column were handled by filling them with the mode (most frequent value).Missing values in the 'Salary' column were handled by filling them with the median.
+
+2. Checking for outliers : Outliers in the 'salary' column were identified using the interquartile range (IQR) method.
+
+3. Encoding Categorical Data : Convert 'College' column to categorical data type.
+
+4. Correct the data 'Height' column by replacing it with random numbers between 150 and 180.
